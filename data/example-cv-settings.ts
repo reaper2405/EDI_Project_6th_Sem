@@ -1,69 +1,62 @@
 import { Cv, LEVELS } from '~/types/cvfy';
 
 export const cvSettingTemplate: Cv = {
-  jobTitle: 'Deputy Director Parks Department',
-  name: 'Leslie',
-  lastName: 'Knope',
-  email: 'lknope@parksdept.com',
-  location: 'Pawnee, Indiana',
-  phoneNumber: '317-660-2160',
+  jobTitle: 'Software Developer',
+  name: 'Raj Kunwar',
+  lastName: 'Singh',
+  email: 'rajkunwarsingh123@gmail.com',
+  location: 'Pune, Maharashtra',
+  phoneNumber: '+91 9876543210',
   aboutme:
-    "My name is Leslie Knope. I am a passionate, over-achieving government employee who believes the government's #1 job is serving the people. By pairing the right people with the right messaging at the right time, the parks department and your local government can make the world a better place for everyone! I have met Joe Biden, and one day I will become the first female President of the United States.",
+    "My name is Raj Kunwar Singh. I am a passionate, over-achieving government employee who believes the government's #1 job is serving the people. By pairing the right people with the right messaging at the right time, the department and your local government can make the world a better place for everyone! I have met the CM of my state, and one day I will become the President of the India.",
   jobSkills: ['Microsoft', 'Word', 'Excel', 'PerfectMind'],
   softSkills: ['Positivity', 'Leadership', 'Public Speaking'],
   languages: [{ lang: 'English', level: LEVELS[4] }],
-  linkedin: '',
-  twitter: '',
-  github: '',
-  website: 'www.MsKnope.com',
+  linkedin: 'rksingh',
+  twitter: 'rksingh05',
+  github: 'reaper24',
+  website: 'www.rksingh.com',
   education: [
     {
       title: 'A Environmental and Public Affairs',
-      location: 'Indiana University, Bloomington, Indiana',
-      from: new Date(1993, 9, 1),
-      to: new Date(1993, 4, 1),
+      location: 'Vishwakarma Institute of Technology, Maharashtra, India',
+      from: new Date(2020, 9, 1),
+      to: new Date(2020, 4, 1),
       current: false,
-      summary: 'Summa cum Laude',
+      summary: 'Very passionate',
     },
   ],
   work: [
     {
-      title: 'Deputy Director Parks Department',
-      location: 'City of Pawnee, Indiana',
-      from: new Date(2009, 1, 1),
-      to: new Date(2012, 1, 1),
+      title: 'HR',
+      location: 'Pune, Maharashtra',
+      from: new Date(2021, 1, 1),
+      to: new Date(2021, 1, 1),
       current: true,
-      summary: `- Sed ut lorem viverra urna malesuada interdum in ut risus.
-- Duis at sem non justo aliquam iaculis.
-- Quisque lobortis nibh non turpis interdum ornare.
-- Sed et diam nec arcu tempor suscipit sit amet at tellus.
-- Duis quis diam imperdiet, pharetra lacus eget, fringilla odio.`,
+      summary: `- I was very passionate with my work.
+- Very enthusiastic to learn new things from new people.
+- Easy to mix up with everyone at work.`,
     },
     {
       title: 'City Councilor',
-      location: 'City of Pawnee, Indiana',
-      from: new Date(2012, 1, 1),
+      location: 'Pune, India',
+      from: new Date(2022, 1, 1),
       to: new Date(),
       current: true,
-      summary: `- In placerat nisi pellentesque felis blandit, vel varius justo eleifend.
-- Etiam porttitor tortor vel lobortis ultricies.
-- Nam non libero accumsan, sagittis nibh vitae, auctor ligula.
-- Sed hendrerit dui a ante porttitor, vitae tristique ipsum laoreet.
-- Suspendisse interdum mauris a lectus dignissim, vitae aliquet ante tempor.`,
+      summary: `- 
+- I am working deligently and with full zeal`,
     },
   ],
   projects: [
     {
       title: 'Lot 48',
-      location: 'City of Pawnee, Indiana',
-      from: new Date(2009, 1, 1),
-      to: new Date(2012, 1, 1),
+      location: 'Pune, India',
+      from: new Date(2019, 1, 1),
+      to: new Date(2021, 1, 1),
       current: true,
-      summary: `- Sed ut lorem viverra urna malesuada interdum in ut risus.
-- Duis at sem non justo aliquam iaculis.
-- Quisque lobortis nibh non turpis interdum ornare.
-- Sed et diam nec arcu tempor suscipit sit amet at tellus.
-- Duis quis diam imperdiet, pharetra lacus eget, fringilla odio.`,
+      summary: `- I was very passionate with my work.
+- Very enthusiastic to learn new things from new people.
+- Easy to mix up with everyone at work.`,
     },
   ],
   displayEducation: true,
