@@ -4,21 +4,7 @@
       <span class="title__text">
         {{ $t('cv-settings') }}
       </span>
-      <a
-        class="edi-project"
-        href="https://ko-fi.com/X8X4COWK0"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="EDI Project"
-      >
-        <img
-          class="buy-me-a-coffee__image"
-          src="https://cdn.ko-fi.com/cdn/kofi5.png?v=3"
-          width="118px"
-          height="30px"
-          alt="EDI Project"
-        />
-      </a>
+      
     </h2>
     <form class="form mb-10" autocomplete="on">
       <div class="form__section px-6 py-3">
